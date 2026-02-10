@@ -65,4 +65,15 @@ private Contact contact;
     public void setContact(Contact contact) {
         this.contact = contact;
     }
+
+    public Address(int id, String street, String city, String state, int zipCode, Contact contact) {
+        this.id = id;
+        this.street = street;
+        this.city = city;
+        this.state = state;
+        this.zipCode = zipCode;
+        this.contact = contact;
+    }
+
+
 }
